@@ -87,7 +87,7 @@ const EditProduct = () => {
            <div className='ree-in'>
            <label> Image</label>
             <code className="code-color">
-              Supported Formats: jpg, jpeg, png
+              Supported Formats:1MB jpg, jpeg, png
             </code>
             <input
                
@@ -101,7 +101,7 @@ const EditProduct = () => {
            <label>Name</label>
           <input
             type="text"
-            placeholder="Product name"
+            placeholder="Name"
             name="name"
             value={product?.name}
             onChange={handleInputChange}
@@ -114,8 +114,8 @@ const EditProduct = () => {
            <div className='ree-in'>
            <label>Date</label>
           <input
-              type="text"
-              placeholder="Product Price"
+              type="date"
+              placeholder="Date"
               name="price"
               value={product?.date}
               onChange={handleInputChange}
@@ -140,7 +140,7 @@ const EditProduct = () => {
            <div className='re-bu'>
            <button className="bu" onClick={()=>navigate('/pr')}> home</button>
            <button className="bu" type="submit" >
-              Save Updade
+              Save Update
             </button>
            </div>
            

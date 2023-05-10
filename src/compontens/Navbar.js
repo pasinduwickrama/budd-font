@@ -24,10 +24,16 @@ const Navbar = () => {
                 <img onClick={()=>navigate('/pr')}  src={img1} alt='' /> 
                 </div>
                 <div className='nav-r'>
-                    <button onClick={()=>navigate('/add')}>{name} Add pinkama  </button>
+                    <button onClick={()=>navigate('/add')}>{name} Add Merit(පින්කම)  </button>
                     {/* <p>Well Come To {name} </p> */}
                     <button onClick={logout}  >logout</button>
                 </div>
+                {/* <div className='nav-r'>
+                  <p>රැස් කරනා පින එයි පසු පස්සේ - සැප සලසන්නට හැමතිස්සේ</p>
+                  <p>Merit collected follows one - providing happiness always</p>
+                  <p>මේ රැස් කරනා පින එනවාමයි - යන යන  ගමනේ පසු පස්සෙ</p>
+                  <p>This merit collected will definitely follow - from place to place, wherever you go</p>
+                </div> */}
             </div>
    
   )

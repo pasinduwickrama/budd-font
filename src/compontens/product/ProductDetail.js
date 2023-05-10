@@ -65,9 +65,9 @@ const ProductDetail = () => {
             <h4>
               <span className="badge">Name: </span> &nbsp; {product.name}
             </h4>
-            <p>
+            {/* <p>
               <b>&rarr; SKU : </b> {product.sku}
-            </p>
+            </p> */}
             {/* <p>
               <b>&rarr; Category : </b> {product.category}
             </p> */}

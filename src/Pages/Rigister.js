@@ -145,10 +145,12 @@ const Rigister = () => {
                             
                    
                     <div className='re-bu'>
-                        <p onClick={toggle} >{formData.isText ? 'Register Here' : 'Login Here'} </p>
+                        <p className='re-bup' onClick={toggle} >{formData.isText ? 'Register Here' : 'Login Here'} </p>
+                        {/* <p className='re-bup' onClick={()=>navigate('/forgot')} > forg password </p> */}
+
                     </div>
                     <div className='re-bu'>
-                        <p onClick={()=>navigate('/forgot')} > forg password </p>
+                        <p className='re-bupp' onClick={()=>navigate('/forgot')} > Forgot Password </p>
                     </div>
                 </form>
             </div>

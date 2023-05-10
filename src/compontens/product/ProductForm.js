@@ -83,7 +83,7 @@ const ProductForm = () => {
                <div className='ree-in'>
                 <label>Image</label>
                   <code className="code-color">
-                    Supported Formats: jpg, jpeg, png
+                    Supported Formats:1MB jpg, jpeg, png
                   </code>
                   <input
                     
@@ -96,7 +96,7 @@ const ProductForm = () => {
                    <label>Name</label>
                    <input
                     type="text"
-                    placeholder="Product name"
+                    placeholder="Name"
                     name="name"
                     value={product?.name}
                     onChange={handleInputChange}
@@ -108,7 +108,7 @@ const ProductForm = () => {
                    <label>Date</label>
                    <input
                       type="date"
-                      placeholder="Product Price"
+                      placeholder="Date"
                       name="date"
                       value={product?.date}
                       onChange={handleInputChange}
