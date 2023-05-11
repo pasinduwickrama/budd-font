@@ -49,7 +49,7 @@ const ProductDetail = () => {
         
         {product && (
           <div  className="card-body1">
-          <h3 className="mt">Product Detail</h3>
+          <h3 className="mt">Merit(පින්කම) Detail</h3>
             <div className="group">
               {product?.image ? (
                 <img
@@ -63,11 +63,11 @@ const ProductDetail = () => {
             {/* <h4>Product Availability: {stockStatus(product.quantity)}</h4> */}
             <hr />
             <h4>
-              <span className="badge">Name: </span> &nbsp; {product.name}
+              <span className="badge">Name Merit(පින්කම): </span> &nbsp; {product.name}
             </h4>
-            {/* <p>
-              <b>&rarr; SKU : </b> {product.sku}
-            </p> */}
+            <p>
+              <b>&rarr; Date Merit(පින්කම): </b> {product.date}
+            </p>
             {/* <p>
               <b>&rarr; Category : </b> {product.category}
             </p> */}

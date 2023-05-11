@@ -16,7 +16,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 
 const Profile = () => {
-  // useRedirectLoggedOutUser("/");
+  useRedirectLoggedOutUser("/");
   const dispatch = useDispatch();
 
   const isLoggedIn = useSelector(selectIsLoggedIn);

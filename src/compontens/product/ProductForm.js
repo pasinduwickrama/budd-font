@@ -78,7 +78,7 @@ const ProductForm = () => {
            <form onSubmit={saveProduct} >
                <div className='re-he'>
                   {/* <img src={img1} alt='' /> */}
-                  <h2> {name} Add Pinkama</h2>
+                  <h2> {name} Add Merit(පින්කම)</h2>
                </div>
                <div className='ree-in'>
                 <label>Image</label>
@@ -93,10 +93,10 @@ const ProductForm = () => {
                   />
                 </div>
                <div className='ree-in'>
-                   <label>Name</label>
+                   <label>Name Merit(පින්කම) </label>
                    <input
                     type="text"
-                    placeholder="Name"
+                    placeholder="Merit(පින්කම)"
                     name="name"
                     value={product?.name}
                     onChange={handleInputChange}
@@ -105,10 +105,10 @@ const ProductForm = () => {
                
               
                <div className='ree-in'>
-                   <label>Date</label>
+                   <label>Date Merit(පින්කම)</label>
                    <input
                       type="date"
-                      placeholder="Date"
+                      placeholder="Date Merit(පින්කම)"
                       name="date"
                       value={product?.date}
                       onChange={handleInputChange}
@@ -116,7 +116,7 @@ const ProductForm = () => {
                </div>
               
                <div className='re-inn'>
-                   <label>Description</label>
+                   <label>Description Merit(පින්කම)</label>
                       <ReactQuill
                       theme="snow"
                       value={description}
@@ -129,7 +129,7 @@ const ProductForm = () => {
               
                <div className='re-bu'>
                  <button onClick={()=>navigate('/pr')}> home</button>
-                  <button>Save</button>
+                  <button>Save Merit(පින්කම)</button>
                </div>
                        
                

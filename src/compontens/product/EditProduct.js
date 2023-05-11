@@ -60,7 +60,7 @@ const EditProduct = () => {
 
     formData.append("category", product?.category);
     formData.append("quantity", product?.quantity);
-    formData.append("price", product?.price);
+    formData.append("date", product?.date);
     formData.append("description", description);
     if (productImage) {
       formData.append("image", productImage);
@@ -82,7 +82,7 @@ const EditProduct = () => {
             
           <form onSubmit={saveProduct}>
             <div className='re-he'>
-                <h1>Edit Pinkama</h1>
+                <h1>Edit Merit(පින්කම)</h1>
               </div>
            <div className='ree-in'>
            <label> Image</label>
@@ -98,10 +98,10 @@ const EditProduct = () => {
            </div>
 
            <div className='ree-in'>
-           <label>Name</label>
+           <label>Name Merit(පින්කම)</label>
           <input
             type="text"
-            placeholder="Name"
+            placeholder="Name Merit(පින්කම)"
             name="name"
             value={product?.name}
             onChange={handleInputChange}
@@ -112,11 +112,11 @@ const EditProduct = () => {
 
 
            <div className='ree-in'>
-           <label>Date</label>
+           <label>Date Merit(පින්කම)</label>
           <input
               type="date"
-              placeholder="Date"
-              name="price"
+              placeholder="Date Merit(පින්කම)"
+              name="date"
               value={product?.date}
               onChange={handleInputChange}
            
@@ -126,7 +126,7 @@ const EditProduct = () => {
           
 
            <div className='re-inn'>
-           <label>Description</label>
+           <label>Description Merit(පින්කම)</label>
           <ReactQuill
                   theme="snow"
                   value={description}
@@ -140,7 +140,7 @@ const EditProduct = () => {
            <div className='re-bu'>
            <button className="bu" onClick={()=>navigate('/pr')}> home</button>
            <button className="bu" type="submit" >
-              Save Update
+               Update Merit(පින්කම)
             </button>
            </div>
            

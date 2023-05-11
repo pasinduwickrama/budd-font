@@ -84,7 +84,7 @@ const ProductList = ({ products,isLoading }) => {
       <div className='list-body'>
         <div className='list-pro'>
         {!isLoading && products.length === 0 ? (
-            <p>-- No Pin kam found, please add a Pin kam...</p>
+            <p>-- No Merit(පින්කම) found, please add a Merit(පින්කම)...</p>
           ) : (
         <div>
               
@@ -103,7 +103,7 @@ const ProductList = ({ products,isLoading }) => {
                       alt={product.image.fileName}
                         />
                       ) :(
-                        <p>No image set for this product</p>
+                        <p>No image set for this Merit(පින්කම)</p>
                         )}
                      </div>
                       

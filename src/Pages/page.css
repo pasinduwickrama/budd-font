@@ -215,6 +215,7 @@ color: #74ddfd;
 }
 .re-ll{
     margin-top: 20px;
+   
 }
 .re-ll form{
     background: rgb(144,0,51);
@@ -260,6 +261,7 @@ color: #74ddfd;
     font-family: 'Slabo 27px', serif;
     box-shadow: rgba(43, 255, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 251, 0, 0.35) 0px -2px 6px 0px inset;  
     display: flex;
+    /* color: white; */
 }
 .ree-in {
     
@@ -268,6 +270,7 @@ color: #74ddfd;
    justify-content: space-between;
    background-color: #49060d;
       border-radius: 20px;
+      color: white;
    padding: 20px 25px ;
    margin: 10px;
    box-shadow: rgba(43, 255, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 251, 0, 0.35) 0px -2px 6px 0px inset;  
@@ -286,7 +289,7 @@ color: #74ddfd;
     margin-bottom: 20px;
 }
 .re-inn {
-    
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,6 +310,7 @@ color: #74ddfd;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: white;
 }
 .re-he h2{
     display: flex;
@@ -341,6 +345,15 @@ color: #74ddfd;
     justify-content: center;
     margin-top: 30px;
 }
+.code-color{
+    color: #ffffff;
+}
+.list-pro p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Slabo 27px', serif;
+}
+
 
   /*card*/
   .bu{
@@ -395,7 +408,7 @@ color: #74ddfd;
     text-align: center;
     box-shadow: rgba(255, 238, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(0, 255, 242, 0.35) 0px -2px 6px 0px inset;
     font-family: 'Alegreya Sans SC', sans-serif;
-   
+   /* color: white; */
 }
 .card-para button{
     border: 0px;
