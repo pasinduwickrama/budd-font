@@ -254,7 +254,7 @@
     margin-right: 20px; 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
     padding: 0px 10px;
-    background-color: #e91616;
+    background-color: rgb(180, 244, 255);
     box-shadow: rgba(43, 255, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 251, 0, 0.35) 0px -2px 6px 0px inset;  
     border-radius: 10px 100px / 120px;
     font-family: 'Slabo 27px', serif;
@@ -275,7 +275,7 @@
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   background-color: #49060d;
+   background-color: #ec601e;
       border-radius: 20px;
       color: white;
    padding: 20px 25px ;
@@ -408,7 +408,7 @@
     border-radius: 10% 20%;
   }
 .card-body1{
-    background-color: rgb(245, 134, 44);
+    /* background-color: rgb(245, 134, 44); */
     background: linear-gradient( rgb(245, 134, 44) , rgb(221, 67, 6) 64%);
     border-radius: 30px;
     padding: 20px;
