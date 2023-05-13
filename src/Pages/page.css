@@ -275,12 +275,11 @@
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   background-color: rgb(180, 244, 255);
+   
    border-radius: 20px;
    color: rgb(0, 0, 0);
    padding: 20px 25px ;
    margin: 10px;
-   box-shadow: rgba(43, 255, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 251, 0, 0.35) 0px -2px 6px 0px inset;  
     width: 80%;
    /* padding: 15px; */   
 }
@@ -352,7 +351,7 @@
     margin-top: 30px;
 }
 .code-color{
-    color: #ffffff;
+    color: #000000;
 }
 .list-pro p{
     color: white;
