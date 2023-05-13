@@ -289,7 +289,7 @@
     margin-right: 20px; 
     box-shadow: rgba(43, 255, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 251, 0, 0.35) 0px -2px 6px 0px inset;  
     padding: 10px 10px;
-    background-color: #e91616;
+    background-color: #ff94b4;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 10px 100px / 120px;
     font-family: 'Slabo 27px', serif;
@@ -301,11 +301,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #eb00cc;
+  
     border-radius: 20px;
     padding: 20px 25px ;
     margin: 10px;
-    box-shadow: rgba(43, 255, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 251, 0, 0.35) 0px -2px 6px 0px inset;  
 
     /* padding: 15px; */    
  }
@@ -317,7 +316,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .re-he h2{
     display: flex;
