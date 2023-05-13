@@ -161,7 +161,7 @@ color: #74ddfd;
 /*nav */
 
 .nav-body{
-    background: linear-gradient(90deg, rgba(144,0,51,1) 14%, rgba(167,3,14,1) 64%); ;
+    background: linear-gradient(90deg, rgb(238, 5, 219) 14%, rgba(167,3,14,1) 64%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
