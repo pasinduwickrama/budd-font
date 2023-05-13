@@ -60,7 +60,7 @@
 }
 .re-l form{
     /* background: rgb(214, 154, 65); */
-   background: linear-gradient(90deg, rgb(218, 178, 3) 14%, rgba(167,3,14,1) 64%);
+   background: linear-gradient(90deg, rgb(238, 195, 2) 14%, rgb(167, 96, 3) 64%);
     padding: 10px 15px;
     margin-right: 350px;
     /* border-radius: 50% 20% / 10% 40%; */
@@ -407,7 +407,7 @@ color: #74ddfd;
     border-radius: 10% 20%;
   }
 .card-body1{
-    background: linear-gradient(90deg, rgb(218, 178, 3) 14%, rgba(167,3,14,1) 64%);
+    background: linear-gradient(90deg, rgb(238, 195, 2) 14%, rgb(167, 96, 3) 64%);
     border-radius: 30px;
     padding: 20px;
     font-size: 30px;

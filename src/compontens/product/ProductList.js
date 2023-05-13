@@ -95,7 +95,7 @@ const ProductList = ({ products,isLoading }) => {
                   return (
                     <div className="card-body1" key={_id}>
                        
-                      <div className="card-hader">🏵🏵.Namo Buddhaya.🏵🏵</div>
+                      <div className="card-hader">.Namo Buddhaya.</div>
                       <div className="card-hader">{index + 1}. {shortenText(name, 16)}</div>
                      <div  >
                      {product?.image ? (
