@@ -409,7 +409,7 @@
   }
 .card-body1{
     background-color: rgb(245, 134, 44);
-    /* background: linear-gradient(90deg, rgb(124, 229, 255) , rgb(221, 135, 6) 64%); */
+    background: linear-gradient( rgb(245, 134, 44) , rgb(221, 67, 6) 64%);
     border-radius: 30px;
     padding: 20px;
     font-size: 30px;
