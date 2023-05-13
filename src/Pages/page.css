@@ -408,7 +408,9 @@
     border-radius: 10% 20%;
   }
 .card-body1{
-    background: linear-gradient(90deg, rgb(255, 180, 224) , rgb(221, 135, 6) 64%);
+    background-color: rgb(180, 244, 255);
+
+    /* background: linear-gradient(90deg, rgb(124, 229, 255) , rgb(221, 135, 6) 64%); */
     border-radius: 30px;
     padding: 20px;
     font-size: 30px;
