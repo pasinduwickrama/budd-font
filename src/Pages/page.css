@@ -226,7 +226,7 @@
 }
 .re-ll form{
     background: rgb(144,0,51);
-    background: linear-gradient(90deg, rgb(234, 238, 2) 14%, rgb(221, 135, 6) 64%);
+    background: linear-gradient(90deg, rgb(208, 223, 10) 14%, rgb(221, 135, 6) 64%);
     padding: 20px 35px;
     /* margin-right: 350px; */
     /* border-radius: 50% 20% / 10% 40%; */
