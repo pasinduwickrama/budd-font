@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
  }
 
 .landin{
@@ -34,6 +35,7 @@
    /* margin-top: 10px; */
    padding: 30px 50px;
    font-size: 45px;
+   color: #ffffff;
    border-radius: 10px;
    background: rgb(144,0,51);
    background: linear-gradient(90deg, rgba(144,0,51,1) 14%, rgba(167,3,14,1) 64%); 
@@ -57,8 +59,8 @@
     margin-top: 250px;
 }
 .re-l form{
-    background: rgb(144,0,51);
-   background: linear-gradient(90deg, rgba(144,0,51,1) 14%, rgba(167,3,14,1) 64%);
+    /* background: rgb(214, 154, 65); */
+   background: linear-gradient(90deg, rgb(238, 5, 219) 14%, rgba(167,3,14,1) 64%);
     padding: 10px 15px;
     margin-right: 350px;
     /* border-radius: 50% 20% / 10% 40%; */
@@ -82,10 +84,11 @@
     margin-right: 20px; 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
     padding: 0px 10px;
-    background-color: #e91616;
+    background-color: #d61e1e;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 10px 100px / 120px;
     font-family: 'Slabo 27px', serif;
+    color: #ffffff;
 }
 .re-in input{
     font-size: 25px;
@@ -117,6 +120,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #000000;
 }
 
 .re-bu{
@@ -126,13 +130,14 @@
     align-items: center;
     margin-top: 20px;
     font-family: 'Slabo 27px', serif;
+   
 
 }
 
 .re-bup{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
  padding: 10px 20px;
- background-color: rgb(255, 250, 180);
+ background-color: rgb(180, 244, 255);
  border-radius: 10px;
  margin-left: 5px;
 }
@@ -147,9 +152,10 @@ color: #74ddfd;
    padding: 20px 35px;
    font-size: 25px;
    border-radius: 10% 30% 50% 70%;
-   background-color: #e91616;
+   background-color: #00559b;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
    font-family: 'Slabo 27px', serif;
+   color: #000000;
 }
 
 /*nav */
@@ -334,7 +340,7 @@ color: #74ddfd;
    padding: 20px 35px;
    font-size: 25px;
    border-radius: 10% 30% 50% 70%;
-   background-color: #e91616;
+   background-color: #e9a616;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
    font-family: 'Slabo 27px', serif;
 }
