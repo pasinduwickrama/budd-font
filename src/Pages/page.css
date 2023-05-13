@@ -60,7 +60,7 @@
 }
 .re-l form{
     /* background: rgb(214, 154, 65); */
-   background: linear-gradient(90deg, rgb(238, 195, 2) 14%, rgb(167, 96, 3) 64%);
+    background: linear-gradient(90deg, rgb(234, 238, 2) 14%, rgb(221, 135, 6) 64%);
     padding: 10px 15px;
     margin-right: 350px;
     /* border-radius: 50% 20% / 10% 40%; */
@@ -84,11 +84,11 @@
     margin-right: 20px; 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
     padding: 0px 10px;
-    background-color: #d61e1e;
+    background-color: rgb(180, 244, 255);
    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 10px 100px / 120px;
     font-family: 'Slabo 27px', serif;
-    color: #ffffff;
+    color: #000000;
 }
 .re-in input{
     font-size: 25px;
@@ -137,13 +137,14 @@
 .re-bup{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
  padding: 10px 20px;
- background-color: rgb(180, 244, 255);
+ 
+ background-color: #d61e1e;
  border-radius: 10px;
  margin-left: 5px;
 }
 
 .re-bupp{
-color: #74ddfd;
+    color: #000000;
 }
 
 .re-bu button{
@@ -340,7 +341,7 @@ color: #74ddfd;
    padding: 20px 35px;
    font-size: 25px;
    border-radius: 10% 30% 50% 70%;
-   background-color: #e9a616;
+   background-color: #d61e1e;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
    font-family: 'Slabo 27px', serif;
 }
@@ -407,7 +408,7 @@ color: #74ddfd;
     border-radius: 10% 20%;
   }
 .card-body1{
-    background: linear-gradient(90deg, rgb(238, 195, 2) 14%, rgb(167, 96, 3) 64%);
+    background: linear-gradient(90deg, rgb(234, 238, 2) 14%, rgb(221, 135, 6) 64%);
     border-radius: 30px;
     padding: 20px;
     font-size: 30px;
