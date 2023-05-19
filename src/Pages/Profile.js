@@ -38,7 +38,7 @@ const Profile = () => {
   return (
     <div >  
      <Navbar />
-     <div className='nav-li'>{name}</div>
+     <div className='nav-li'>{name} Merit(පින්කම) Book</div>
       {/* <List products={products} isLoading={isLoading} /> */}
       <ProductList products={products} isLoading={isLoading} />
       {/* <ProductDetail /> */}

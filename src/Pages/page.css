@@ -184,7 +184,8 @@
     flex-direction: row;
     justify-content: center;
     color: white;
-    font-size: 25px;
+    margin-top: 5px;
+    font-size: 30px;
 }
 .nav-l img{
   width: 100%;
