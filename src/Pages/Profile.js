@@ -10,7 +10,7 @@ import { getProducts } from "../redux/features/product/productSlice";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 // import ProductDetail from '../compontens/ProductDetail';
-
+import { selectName} from "../redux/features/auth/authSlice";
 // import Addtb from '../compontens/Addtb'
 // import Tball from '../compontens/Tball'
 
@@ -18,6 +18,7 @@ import { useDispatch, useSelector } from "react-redux";
 const Profile = () => {
   useRedirectLoggedOutUser("/");
   const dispatch = useDispatch();
+  const name = useSelector(selectName);
 
   const isLoggedIn = useSelector(selectIsLoggedIn);
   const { products, isLoading, isError, message } = useSelector(
@@ -37,6 +38,7 @@ const Profile = () => {
   return (
     <div >  
      <Navbar />
+     {name}
       {/* <List products={products} isLoading={isLoading} /> */}
       <ProductList products={products} isLoading={isLoading} />
       {/* <ProductDetail /> */}
