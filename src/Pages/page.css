@@ -566,6 +566,10 @@
 
 /* for all tab inch */
 @media  screen and (max-width:884px) {
+    .nav-li{
+       
+        font-size: 25px;
+    }
     .re{
         display: flex;
         flex-direction: column;
@@ -645,6 +649,11 @@
 
 /* for all mobile inch */
 @media  screen and (max-width:750px) {
+
+    .nav-li{
+       
+        font-size: 12px;
+    }
     .lan-header img{
         height: 150px; 
         margin-bottom: 20px;
