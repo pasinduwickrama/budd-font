@@ -10,7 +10,7 @@ import img1 from '../asses/logo1.png'
 const Navbar = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const name = useSelector(selectName);
+  // const name = useSelector(selectName);
 
   const logout = async () => {
     await logoutUser();
@@ -24,7 +24,7 @@ const Navbar = () => {
                 <img onClick={()=>navigate('/pr')}  src={img1} alt='' /> 
                 </div>
                 <div className='nav-r'>
-                    <button onClick={()=>navigate('/add')}>{name} Add Merit(පින්කම)  </button>
+                    <button onClick={()=>navigate('/add')}>Add Merit(පින්කම)  </button>
                     {/* <p>Well Come To {name} </p> */}
                     <button onClick={logout}  >logout</button>
                 </div>
