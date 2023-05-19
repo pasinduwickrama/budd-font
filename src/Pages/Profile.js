@@ -38,7 +38,7 @@ const Profile = () => {
   return (
     <div >  
      <Navbar />
-     {name}
+     <div className='nav-li'>{name}</div>
       {/* <List products={products} isLoading={isLoading} /> */}
       <ProductList products={products} isLoading={isLoading} />
       {/* <ProductDetail /> */}
