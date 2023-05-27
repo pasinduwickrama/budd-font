@@ -11,7 +11,7 @@ import ProductDetail from './compontens/product/ProductDetail';
 import EditProduct from './compontens/product/EditProduct';
 import Forgot from './Pages/Forgot';
 import Reset from './Pages/Reset';
-import {Helmet} from "react-helmet";
+// import {Helmet} from "react-helmet";
 
 axios.defaults.withCredentials = true;
 
@@ -19,13 +19,13 @@ axios.defaults.withCredentials = true;
 function App() {
   return (
     <BrowserRouter>
-     <Helmet>
+     {/* <Helmet>
                
                 <title>Buddhist Diary</title>
                 <meta name="description" content="Buddhist Diary" />
                 <meta name="keyword" content="Buddhist,Diary ,Buddhist Diary" />
                 
-            </Helmet>
+            </Helmet> */}
     <ToastContainer theme="dark" />
    <Routes>
     <Route path='/' element={<Landing /> } />
