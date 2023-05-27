@@ -11,7 +11,7 @@ import ProductDetail from './compontens/product/ProductDetail';
 import EditProduct from './compontens/product/EditProduct';
 import Forgot from './Pages/Forgot';
 import Reset from './Pages/Reset';
-
+import {Helmet} from "react-helmet";
 
 axios.defaults.withCredentials = true;
 
