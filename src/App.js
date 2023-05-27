@@ -19,6 +19,13 @@ axios.defaults.withCredentials = true;
 function App() {
   return (
     <BrowserRouter>
+     <Helmet>
+               
+                <title>Buddhist Diary</title>
+                <meta name="description" content="Buddhist Diary" />
+                <meta name="keyword" content="Buddhist,Diary ,Buddhist Diary" />
+                
+            </Helmet>
     <ToastContainer theme="dark" />
    <Routes>
     <Route path='/' element={<Landing /> } />
